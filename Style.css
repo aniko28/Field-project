@@ -61,7 +61,7 @@ body {
     background: #333;
     /* A keretet praktikusabb a padding-gal beállítani, mert így minden benne lévő elem szélessége lehet 100% */
     width: 640px;
-    padding: 20px 20px 0;
+    padding: 20px 20px 10px;
     /* A height jó esetben automatikus, az itt most nem kell. */
     margin: 0 auto;
     /* A line-height nem kell ide. */
@@ -121,4 +121,11 @@ body {
     line-height: 23px;
     font-family: SansSerif;
     margin-bottom: 30px;
+}
+
+.copy {
+    font-size: 14px;
+    line-height: 24px;
+    color: #767676;
+    margin-top: 4px;
 }
