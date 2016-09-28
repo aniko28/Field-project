@@ -59,23 +59,23 @@ body {
 
 .top {
     background: #333;
-    width: 680px;
-    height: 945px;
+    /* A keretet praktikusabb a padding-gal beállítani, mert így minden benne lévő elem szélessége lehet 100% */
+    width: 640px;
+    padding: 20px 20px 0;
+    /* A height jó esetben automatikus, az itt most nem kell. */
     margin: 0 auto;
-    line-height: 40px;
+    /* A line-height nem kell ide. */
 }
 
 .img {
     background: url("header.jpg") no-repeat center center;
-    padding: 220px 20px 0 20px;
 }
 
 .img h1 {
-    font-family: SansSerif;
+    /* Padding-gal kitöltjük a "képet". A kép 250px magas: 30px a betűméret, 210 fent, 10 lent: 210 + 30 + 10 = 250px --> pont jó :) */
+    padding: 210px 0 10px 10px;
     font-size: 30px;
     color: white;
-    padding: 20px 0;
-    margin: -10px 10px;
 }
 
 .nav li {
