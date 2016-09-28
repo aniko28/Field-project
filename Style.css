@@ -53,10 +53,8 @@ table {
     border-spacing: 0;
 }
 
-.back {
+body {
     background: #000;
-    width: 100%;
-    height: 1024px;
 }
 
 .top {
