@@ -83,10 +83,10 @@ body {
     font-weight: bold;
     display: inline-block;
     color: #767676;
-    float: left;
-    margin: 0 4px;
-    padding: 0 0 0 20px;
-    height: 20px;
+    /* Ha inline-block, akkor nem floatoljuk. Vagy floatolsz, vagy inline-blockolsz, de alapból inkább inline-block, aztán float (ha az nem a várt hatást hozza) */
+    /* 20px távot állítunk be a menüpontok között */
+    margin-right: 20px;
+    line-height: 30px; /* Line height kell ide, hogy szépen középre kerüljenek a menüpontok */
 }
 
 .top .wrapper {
